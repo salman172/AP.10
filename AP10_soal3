@@ -1,0 +1,28 @@
+#include <iostream>
+
+using namespace std;
+
+int main(){
+   int index,i;
+   //int isi=0;
+
+   cout<<"Masukan Angka Index : ";
+   cin>>index;
+
+   int A[index];
+
+   for(i=0;i<index;i++){
+    cout<<"Nilai ke-"<<i<<" = ";
+    cin>>A[i];
+   }
+   
+   cout<<endl<<"Nilai yang anda input adalah ";
+   cout<<"A["<<index<<"] = ";
+
+    for(i=0;i<index;i++){
+    cout<<"["<<A[i]<<"] ";
+   }
+
+   cout<<endl;
+return 0;
+}
